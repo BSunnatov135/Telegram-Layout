@@ -8,10 +8,60 @@ body {
     margin: 30px auto;
     box-sizing: border-box;
 }
+* {
+    margin: 0;
+}
 .top-container {
     background-color: #1f1f1f;
     margin: 0;
     padding: 10px;
     display: flex;
     flex-direction: row;
+}
+.uacademy-top-icon {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    
+}
+.svg {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-right: 10px;
+}
+path {
+    vertical-align: middle;
+}
+.top-header {
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.pencil {
+    width: 30px;
+    fill: currentColor;
+}
+p {
+    margin-top:-10px;
+    color: grey;
+    font-size: 20px;
+}
+.svg-1 {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.options {
+    height: 30px;
+    fill: currentColor;
 }
