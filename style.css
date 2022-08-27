@@ -65,3 +65,30 @@ p {
     height: 30px;
     fill: currentColor;
 }
+.svg-2 {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+}
+.add-members {
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 10px;
+    display: flex;
+}
+.add {
+    width: 35px;
+    fill:dodgerblue;
+}
+.add-members-text {
+    color: dodgerblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 23px;
+}
