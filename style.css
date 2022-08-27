@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
     padding: 5px 10px;
-    
 }
 .svg {
     vertical-align: middle;
@@ -100,15 +99,20 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     box-sizing: border-box;
 }
 li {
     display: inline;
     font-size: 20px;
-    padding: 20px;
+    padding: 22px;
 }
 .members {
     color: dodgerblue;
     border-bottom: 3px solid dodgerblue;
+}
+.profiles {
+    background-color: #1f1f1f;
+    padding: 10px;
+    display: flex;
 }
