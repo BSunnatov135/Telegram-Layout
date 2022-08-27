@@ -92,3 +92,23 @@ p {
     padding-left: 20px;
     font-size: 23px;
 }
+.navigation {
+    background-color: #1f1f1f;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+}
+.members {
+    color: dodgerblue;
+    border-bottom: 3px solid dodgerblue;
+}
