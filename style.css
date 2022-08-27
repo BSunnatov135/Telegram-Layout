@@ -1,5 +1,5 @@
 html {
-    background-color: #fff;
+    background-color: #000;
 }
 body {
     width: 540px;
@@ -7,4 +7,11 @@ body {
     color: #fff;
     margin: 30px auto;
     box-sizing: border-box;
+}
+.top-container {
+    background-color: #1f1f1f;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
 }
